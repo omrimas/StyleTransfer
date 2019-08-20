@@ -1,0 +1,8 @@
+import model
+
+INPUT_SIZE = 300
+HIDDEN_SIZE = 512
+NUM_LAYERS = 2
+IS_CUDA = False
+
+model = model.LSTMAE(INPUT_SIZE, HIDDEN_SIZE, NUM_LAYERS, IS_CUDA)
